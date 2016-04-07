@@ -1,0 +1,43 @@
+.fontStyle{
+    font-family: open sans;
+}
+
+#cornerDiv {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            color: white;
+            padding: 15px;
+            border-radius: 17px 17px 17px 17px;
+            }
+
+h1{ 
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 3em;
+	color:white;
+	text-shadow: 5px 5px 5px black; /* Nuova proprietà CSS3 */
+}
+.no-textshadow h1{ 
+	color:black;  /* FallBack per browser obsoleti */
+} 
+
+.cssreflections h2 {
+    -webkit-box-reflect: below -.45em 
+        -webkit-gradient(linear, left top, left bottom,  from(transparent), 
+            color-stop(0%, transparent), to(rgba(255, 255, 255, 0.75)));
+}
+   
+.no-cssreflections h2 {
+    text-shadow: 0 1px 0 #136ed1,
+      0 2px 0 #126ac9,
+      0 3px 0 #1160b6,
+      0 4px 0 #105cad,
+      0 5px 0 #0f56a2,
+      0 6px 1px rgba(0,0,0,.1),
+      0 0 5px rgba(0,0,0,.1),
+      0 1px 3px rgba(0,0,0,.3),
+      0 3px 5px rgba(0,0,0,.2),
+      0 5px 10px rgba(0,0,0,.25),
+      0 10px 10px rgba(0,0,0,.2),
+      0 20px 20px rgba(0,0,0,.15);
+}
